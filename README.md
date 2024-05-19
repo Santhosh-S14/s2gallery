@@ -6,5 +6,5 @@
 - [x] Scaffold basic UI with mock data (uploadThings)
 - [x] Check the build process and tidy it up
 - [x] Set up a database (vercel postgres)
-- [ ] Attach a database to the UI
+- [x] Attach a database to the UI
 - [ ] Add authentication (clerk)
