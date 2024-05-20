@@ -7,4 +7,4 @@
 - [x] Check the build process and tidy it up
 - [x] Set up a database (vercel postgres)
 - [x] Attach a database to the UI
-- [ ] Add authentication (clerk)
+- [x] Add authentication (clerk)
