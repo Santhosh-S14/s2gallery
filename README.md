@@ -11,12 +11,9 @@ This is a gallery application built as a part of learning jounrey, following The
 - [x] Attach a database to the UI
 - [x] Add authentication (clerk)
 - [x] Add image upload
-- [ ] Associate images with users
+- [x] Associate images with users
 - [ ] "taint" server only
 - [ ] Using next/Image component
-
-
-
 
 ## Credits
 
