@@ -15,9 +15,20 @@ This is a gallery application built as a part of learning jounrey, following The
 - [ ] "taint" server only
 - [x] Using next/Image component
 - [ ] Adding parallel routes
-      This parallel routing is to render a modal when a user clicks on an image within the application.
-      When the page is refreshed, it is rendered as a standalone page.
-      [x] Added a modal to display the image when it is triggered via a soft navigation with Link tag.
+  - [ ] Added a modal to display the image when it is triggered via a soft navigation with Link tag.
+  - [ ] Created a standalone page for the image when the page is refreshed.
+
+## Concepts
+
+Parallel routes
+
+Parallel routes are a feature of Next.js that allows simultaneous rendering of multiple pages within the same layout. This is useful when you have dynamic sections in your page.
+
+1. This parallel routing is to render a modal/page when a user clicks on an image within the application.
+2. When the page is refreshed, it is rendered as a standalone page.
+3. Advantages of parallel routes:
+   - Independent routes so that we can manage its state, error and other features separately and at a granular level.
+   - Sub navigation within the same layout. But we need to include default.tsx in the other slots to prevent the 404 error.
 
 ## Credits
 
