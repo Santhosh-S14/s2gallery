@@ -13,7 +13,10 @@ This is a gallery application built as a part of learning jounrey, following The
 - [x] Add image upload
 - [x] Associate images with users
 - [ ] "taint" server only
-- [ ] Using next/Image component
+- [x] Using next/Image component
+- [ ] Adding parallel routes
+      This parallel routing is to render a modal when a user clicks on an image within the application.
+      When the page is refreshed, it is rendered as a standalone page.
 
 ## Credits
 
