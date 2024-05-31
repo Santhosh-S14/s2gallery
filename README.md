@@ -17,6 +17,7 @@ This is a gallery application built as a part of learning jounrey, following The
 - [ ] Adding parallel routes
       This parallel routing is to render a modal when a user clicks on an image within the application.
       When the page is refreshed, it is rendered as a standalone page.
+      [x] Added a modal to display the image when it is triggered via a soft navigation with Link tag.
 
 ## Credits
 
