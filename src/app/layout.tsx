@@ -34,10 +34,11 @@ export default function RootLayout({
       />
       <ClerkProvider>
         <body className="flex flex-col gap-4">
-          <div className="w-full">
+          <div className="grid-rows-[auto, 1fr] grid h-screen">
             <TopNav />
+            <main className="overflow-y-scroll">{children} </main>
           </div>
-          {children}
+
           {modal}
           <div id="modal-root" />
         </body>
