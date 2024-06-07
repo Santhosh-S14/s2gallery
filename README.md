@@ -17,6 +17,8 @@ This is a gallery application built as a part of learning jounrey, following The
 - [x] Adding parallel routes
   - [x] Added a modal to display the image when it is triggered via a soft navigation with Link tag.
   - [x] Created a standalone page for the image when the page is refreshed.
+- [x] shadcnUI setup
+- [x] Added a toast component for upload begin and complete
 
 ## Concepts
 

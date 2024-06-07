@@ -1,5 +1,6 @@
 "use client";
 import { useRouter } from "next/navigation";
+import { toast } from "sonner";
 import { useUploadThing } from "~/utils/uploadthing";
 
 type Input = Parameters<typeof useUploadThing>;
@@ -47,7 +48,15 @@ function UploadSVG() {
 export function SimpleUploadButton() {
   const router = useRouter();
   const { inputProps } = useUploadThingInputProps("imageUploader", {
+    onUploadBegin() {
+      toast("Uploading...", {
+        duration: 1000000,
+        id: "upload-toast",
+      });
+    },
     onClientUploadComplete() {
+      toast.dismiss("upload-toast");
+      toast("Upload complete");
       router.refresh();
     },
   });
