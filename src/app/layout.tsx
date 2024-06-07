@@ -33,7 +33,7 @@ export default function RootLayout({
         routerConfig={extractRouterConfig(ourFileRouter)}
       />
       <ClerkProvider>
-        <body className="">
+        <body className="dark">
           <div className="grid-rows-[auto, 1fr] grid">
             <TopNav />
             <main className="overflow-y-scroll pt-10">{children} </main>
